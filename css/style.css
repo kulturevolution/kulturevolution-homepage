@@ -8,7 +8,7 @@ body {
 }
 
 .topContainer {
-    padding: 70px;
+    padding: 40px;
     min-height: 50vh;
     box-sizing: border-box;
 }
@@ -22,26 +22,28 @@ h2.claim {
     font-size: 38px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.7);
 }
 .infoText {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    max-width: 50%;
+    max-width: 70%;
+    color: rgba(0, 0, 0, 0.7);
 }
 .footerContainer {
     min-height: 50vh;
     box-sizing: border-box;
-    padding: 70px;
+    padding: 40px;
     background: url('../gfx/bg.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
 .footer {
     position: absolute;
-    bottom: 70px;
-    left: 70px;
-    right: 70px;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
 }
 .footer .col {
     color: #ffffff;
