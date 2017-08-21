@@ -56,6 +56,10 @@ h2.claim {
     font-size: 38px;
     margin: 0 0 10px -2px;
 }
+.footer .col.col-left {
+    float: left;
+    margin-right: 80px;
+}
 
 
 @media (min-width: 900px) and (max-width: 1200px) {
@@ -67,6 +71,12 @@ h2.claim {
 @media (max-width: 900px) {
     .infoText {
         max-width: 100%;
+    }
+    .footerContainer {
+        min-height: 460px !important;
+    }
+    .footer .col.col-left {
+        margin-top: 30px;
     }
 }
 
